@@ -1,6 +1,6 @@
 # XLock.AspNetCore
 
-ASP.NET Core middleware for [x-lock](https://x-lock.dev) bot protection.
+ASP.NET Core middleware for [x-lock](https://x-lock.cloud) bot protection.
 
 ## Install
 

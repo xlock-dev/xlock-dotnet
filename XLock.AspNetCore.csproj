@@ -14,7 +14,7 @@
     <Description>ASP.NET Core middleware for x-lock bot protection. Verifies x-lock challenge tokens on protected endpoints to block bots, credential stuffing, and automated abuse.</Description>
     <PackageTags>bot-protection;security;middleware;aspnetcore;captcha;x-lock</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://x-lock.dev</PackageProjectUrl>
+    <PackageProjectUrl>https://x-lock.cloud</PackageProjectUrl>
     <RepositoryUrl>https://github.com/x-lock-dev/xlock-dotnet</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
