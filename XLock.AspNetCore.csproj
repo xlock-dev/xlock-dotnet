@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>XLock.AspNetCore</RootNamespace>
+
+    <!-- NuGet package metadata -->
+    <PackageId>XLock.AspNetCore</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>x-lock</Authors>
+    <Company>x-lock</Company>
+    <Description>ASP.NET Core middleware for x-lock bot protection. Verifies x-lock challenge tokens on protected endpoints to block bots, credential stuffing, and automated abuse.</Description>
+    <PackageTags>bot-protection;security;middleware;aspnetcore;captcha;x-lock</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://x-lock.dev</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/x-lock-dev/xlock-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
